@@ -1,28 +1,38 @@
 \documentclass[11pt,epsf]{article}
-\usepackage{graphicx, amssymb, multicol}
-\usepackage{fancyhdr, hyperref}
 
+\input{format}
 
+\setlength{\headheight}{15.2pt}
 \setlength {\textwidth}{180mm} 
-\setlength {\textheight}{232mm}
-\topmargin=-6.0mm
-\oddsidemargin=-10.0mm
-%\pagestyle{empty}
+\setlength {\textheight}{240mm}
+\topmargin=-25.0mm
+\oddsidemargin=-10.00mm
 \pagestyle{fancy}
+
+%%
+%%  Header and footer information
+%%
 \fancyhf{}
 \renewcommand{\headrulewidth}{0pt} % remove lines as well
-\lhead{  }
-\rhead{  }
-%\setcounter{page}{1}
-%\cfoot{ }
-%\rfoot{ }
+\lfoot{{\it AS3: BOSS-Plus}}
+\setcounter{page}{1}
+\cfoot{\thepage}
+\rfoot{{\it Executive Summary}}
+
+%%
+%% ``Definitions'' go here
+%%
+\def\gsim{~\rlap{$>$}{\lower 1.0ex\hbox{$\sim$}}}
+\def\lsim{~\rlap{$<$}{\lower 1.0ex\hbox{$\sim$}}}
+\def \hmpc{\;h^{-1}{\rm Mpc}} 
 
 
 \begin{document}
 
 \vspace{-44pt} 
 \begin{center}
-  {\Large \bf Quasar Science with early {\it James Webb} Observations}
+  {\Large \bf Revolutionary Quasar Science with  {\it James Webb Space Telescope} Observations:\\
+    Notice of Intent for an Director's Discretionary Early Release Science Program}
 \end{center}
 
 \begin{quotation}
@@ -39,6 +49,7 @@ eu blandit. Donec in lacinia libero.}
 \end{quotation}
 
 
+\section{Overview}
 \smallskip
 \smallskip
 \noindent
@@ -50,17 +61,36 @@ such, huge observational and theoretical effort has been invested in
 trying to measure and understand the physics involved in these
 enigmatic systems. 
 
+
+\smallskip
+\smallskip
 \noindent
-In this {\it Notice of Intent} (NoI), we outline 6 particular science cases 
-that focus on the role of accreting supermassive black holes and 
-active galactic nuclei central engines, and their direct consequences 
-to galaxy formation and evolution at Cosmic Dawn ($z\geq5-6$) and 
-Cosmic Noon ($z\sim2-5$). 
+In this {\it Notice of Intent} (NoI), we outline 6 particular science
+cases that focus on the role of accreting supermassive black holes and
+active galactic nuclei central engines, and their direct consequences
+to galaxy formation and evolution at Cosmic Dawn ($z>6$) and Cosmic
+Noon ($z\sim2-5$).
+
+\smallskip
+\smallskip
+\noindent
+The key science goals are:
+\begin{itemize}
+    \item{Active Black Holes in very high-$z$ galaxies.} 
+    \item{Evidence for the Transition Mass that quenches AGN activity;}
+    \item{What triggers luminous QSO acticity at Cosmic Noon?}
+    \item{Extremely Red Quasars;}
+    \item{Changing Look Quasars;}
+    \item{True Type 2 QSOs are high redshift.}
+\end{itemize}
 
 
 
+\newpage
 \medskip
 \medskip
+
+\section{Science Case}
 
 \smallskip
 \smallskip
@@ -238,8 +268,10 @@ tincidunt eu. Nunc vehicula pharetra suscipit. Integer aliquet pretium
 ipsum vel ultrices. Nam rutrum nibh ac quam pulvinar molestie.
 
 
+\newpage
 \medskip
 \medskip
+\section{Science Case}
 
 \smallskip
 \smallskip
@@ -390,7 +422,7 @@ observations with the Edinburgh-built MIRI spectrograph.
 %Wardlow et al., 2011, MNRAS, 415, 1479 \\
 \end{multicols}
 
-
+\iffalse
 Science
 ===========================
 — Hosts of z>2 QSOs
@@ -405,25 +437,8 @@ Technicals
 — MIRI spectroscopy (of PAHs??) 
 — Rest UV/optical lines in which NIRCam/Spec filters (this is obviously easy, but still just needs to be written down! ;) 
 — ERS is ~25hrs 
+\fi
 
-
-Personel
-===========================
-— Rosario
-— Zakamska
-— Hamann
-— Richards
-— Mortlock
-— Warren 
-— Venemans 
-— Hewett 
-— McMahon
-— Fan
-— Jiang
-— McGreer
-— Strauss
-— Mullaney
-— Kocevski
 
 
 
