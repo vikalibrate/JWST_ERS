@@ -42,10 +42,10 @@
 %----------------------------------------------------------------------------------------
 
 \textwidth 6.75in
-\textheight 9.25in
+\textheight 9.750in  %9.25in
 \oddsidemargin -.25in
 \evensidemargin -.25in
-\topmargin -1in
+\topmargin -1.75in %-1in
 \longindentation 0.50\textwidth
 \parindent 0.4in
 
@@ -104,11 +104,11 @@
 %----------------------------------------------------------------------------------------
 
 \def\opening#1{\thispagestyle{empty}
-{\centering\fromaddress \vspace{0.6in} \\ % Print the header and from address here, add whitespace to move date down
+{\centering\fromaddress \vspace{0.6in} \\                  % Print the header and from address here, add whitespace to move date down
 \hspace*{\longindentation}\today\hspace*{\fill}\par} % Print today's date, remove \today to not display it
-{\raggedright \toname \\ \toaddress \par} % Print the to name and address
-\vspace{0.4in} % White space after the to address
-\noindent #1 % Print the opening line
+{\raggedright \toname \\ \toaddress \par}                  % Print the to name and address
+\vspace{0.4in}                                                              % White space after the to address
+\noindent #1                                                               % Print the opening line
 % Uncomment the 4 lines below to print a footnote with custom text
 %\def\thefootnote{}
 %\def\footnoterule{\hrule}
@@ -129,7 +129,8 @@
 \hspace*{\longindentation} % Move the signature right
 \parbox{\indentedwidth}{\raggedright
 #1 % Print the signature text
-\vskip 0.65in % Whitespace between the signature text and your name
+%\vskip 0.25in % Whitespace between the signature text and your name
+%\vskip 0.65in % Whitespace between the signature text and your name
 \fromsig}} % Print your name and title
 
 %----------------------------------------------------------------------------------------
@@ -141,12 +142,10 @@
 %----------------------------------------------------------------------------------------
 
 \begin{letter}
-{{\bf Parliamentary}\\
-House of Commons \\
-London, SW1A 0AA \\
-{\bf Constituency} \\
-139 Dundee Street, 
-Edinburgh, EH11 1BP\\
+{Space Telescope Science Institute\\ 
+3700 San Martin Drive\\
+Baltimore, MD 21218 \\
+U.S.A.
 }
 
 %----------------------------------------------------------------------------------------
@@ -158,32 +157,50 @@ Edinburgh, EH11 1BP\\
 %%                ---  how the proposed project supports the DD ERS goals and principles,
 
 %\opening{Dear Sir or Madam,}
-\opening{Dear STScI Director}
+\opening{Dear STScI Director,}
 
 \smallskip
+%\noindent
+\begin{center}
+%{\bf Re: Notice of Intent for JWST Director's Discretionary Early Release Science program}
+{\sc Revolutionary Quasar Science with {\it James Webb Space Telescope} Observations:\\
+Notice of Intent for JWST Director's Discretionary Early Release Science program}
+\end{center}
 
-{\bf JWST DD ERS QSO NOI}
+The two major sources off energy available to a galaxy are: nuclear
+fusion and the gravitational potential energy associated with a
+central super-massive black hole (SMBH). And, the link between massive
+galaxies and the SMBHs that seem ubiquitous at their centers, is
+assumed to be vital to the understanding of galaxy formation and
+evolution. And, after dark matter, dust is the most mysterious
+component of galaxies.
 
- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porta sodales est, vel cursus risus porta non. Vivamus vel pretium velit. Sed fringilla suscipit felis, nec iaculis lacus convallis ac. Fusce pellentesque condimentum dolor, quis vehicula tortor hendrerit sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam interdum tristique diam eu blandit. Donec in lacinia libero.
-
-Sed elit massa, eleifend non sodales a, commodo ut felis. Sed id pretium felis. Vestibulum et turpis vitae quam aliquam convallis. Sed id ligula eu nulla ultrices tempus. Phasellus mattis erat quis metus dignissim malesuada. Nulla tincidunt quam volutpat nibh facilisis euismod. Cras vel auctor neque. Nam quis diam risus.
-
+As such, in this Notice of Intent (NoI), we outline 6 particular
+science cases that focus on the role of accreting supermassive black
+holes and active galactic nuclei central engines, and their direct
+consequences to galaxy formation and evolution at `Cosmic Dawn' and
+`Cosmic Noon'.
+%%
+In particular, these science cases focus on:
 \begin{itemize}
-\item{Sed sed ipsum diam. In risus tortor, sagittis eu auctor in,
-    varius in dui. Mauris a nunc ut ligula ullamcorper tincidunt. Nunc
-    aliquam eros ac risus pellentesque aliquam.} 
-  \item{Phasellus augue velit, varius at porttitor sit amet, pretium eget felis. Ut mollis tellus elementum magna porttitor rutrum.}
-\item{Etiam blandit leo eget est consectetur imperdiet. Quisque et diam nec orci vulputate varius vitae id sapien.}
+\item{Active Black Holes in very high redshift ($z>10$) galaxies;}
+\item{Evidence for the Transition Mass that quenches AGN/quasar activity;}
+\item{What physical processes trigger luminous QSO activity at Cosmic Noon?}
+\item{Extremely Red Quasars, and placing them in an evolutionary context;}
+\item{Changing Look AGN and Quasars, and understanding SMBH accretion and central engines;} 
+\item{Discovering of true Type 2 QSOs at high redshift.}
 \end{itemize}
 
-Nunc semper quam et leo interdum vulputate eu quis magna. Sed nec arcu
-at orci egestas convallis. Aenean quam velit, aliquam vitae viverra
-in, elementum vel elit. Nunc suscipit aliquet sapien a suscipit. Cras
-nulla ipsum, posuere eu fringilla sit amet, dapibus ultricies
-nulla. Nullam eu augue id purus mollis dignissim sed et
-libero. Phasellus eget justo sed neque pellentesque egestas nec id
-arcu. Donec facilisis pulvinar sapien et fringilla. Suspendisse
-vestibulum rhoncus sapien id laoreet.
+The observational goals of the DD ERS program are to: {\it (i)} to perform a
+$\sim$20 hour survey of {\it Spitzer} and WISE selected AGN and quasars; {\it (ii)} to
+test multiple modes of JWST, in particular MIRI, and {\it (iii)} to dovetail
+on the extragalactic deep field observations and produce timely and
+enhanced science and data products for the community.
+
+Noting the PIs host institution, we aim to test
+multiple modes of the JWST MIRI including imaging, low-resolution
+slitted and slitless spectroscopy, medium-resolution integral field
+unit (IFU) spectroscopy and coronagraphy.
 
 \closing{Sincerely,}
 
