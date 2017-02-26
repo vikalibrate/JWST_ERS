@@ -1,5 +1,5 @@
 
-TEXFILE=JWST_ERS_QSO_ScienceCase
+TEXFILE=QSO_ScienceCase
 default: all
 
 # just run it
